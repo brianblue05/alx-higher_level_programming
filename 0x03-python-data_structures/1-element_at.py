@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 def element_at(my_list=[]):
     for x in my_list:
-        if x < 0:
+        if idx < 0:
             return None
-        elif x > idx:
+        elif idx > len(my_list):
             return None
         else:
             return(my_list[idx])
